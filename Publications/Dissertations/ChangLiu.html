@@ -1,0 +1,241 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Chang Liu - Master - 2014</title>
+<meta name="description" content="Created by Fei Qiao, 2006.10.01, CAS, EE, Tsinghua Univ.">
+<base target="_blank">
+<link rel="shortcut icon" href="favicon.ico" >
+</head>
+
+<body>
+
+<table border="0" width="100%" id="table1" cellspacing="0">
+	<tr>
+		<td width="98%" bgcolor="#3872AB" background="banner_bg.gif">　</td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<b><font size="5" face="Times New Roman">Chang Liu - Master -2014</font></b></td>
+	</tr>
+	<tr>
+		<td width="100%">
+		<p align="center"><b>
+		<span style="font-family: Times New Roman; color: black"><font size="6">
+		Design Methodology for Approximate Circuits and Systems </font></span>
+		</b>
+		<p align="center"><b>
+		<span style="font-family: Times New Roman; color: black"><font size="6">
+		based on Configurable Multistage-Latency Adders</font></span><font size="6" face="Times New Roman">
+		</font></b>
+		</td>
+	</tr>
+	<tr>
+		<td width="99%"><hr SIZE="3" color="#000000" noshade></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; font-weight: 700">Abstract:</span></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">
+		With the development of integrated circuit, implementations of various 
+		mobile devices and intelligent systems with high performance and low 
+		power consumption are more preferable. Scaling of CMOS technology brings 
+		the benefits of reducing the energy dissipation as well as saving 
+		packaging cost. But it faces the problems in performance loss when 
+		further scaling down the supply voltage. Meanwhile designers mostly 
+		adopt some conservative approaches such as raising the voltage or 
+		reducing the frequency to prevent the faults causing by process 
+		variations. It comes performance loss and extra power consumptions. 
+		Approximate computing, aiming at maintaining the operating frequency at 
+		low power consumptions with a tolerable quality degradation, is emerged 
+		of growing interest. Previous works focus on the design of approximate 
+		computing elements. While existing design methods are inefficient due to 
+		the timing-consuming quality evaluation. Accordingly, development of an 
+		efficient design method is much needed, which will also be helpful to 
+		the automated design for approximate systems. This research work 
+		characterizes multistage speculative adders and presents a fast quality 
+		evaluation approach based on statistical error simulations, thus 
+		proposing an efficient design methodology for approximate circuit based 
+		system design. To validate the methodology, support vector machine (SVM) 
+		classification algorithm is analyzed and mapped to a hardware system 
+		composed of approximate computing circuits.
+</span></td>
+	</tr>
+	<tr>
+		<td width="99%" height="25">
+		<hr width="100%" SIZE="4">
+		</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<b><font face="Times New Roman">Key Point I: </font>
+		<span style="font-family: Times New Roman; color: black">
+		The statistical error model of multistage-latency adders</span><font face="Times New Roman">
+		</font></b></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">
+		Characteristics of multistage speculative adders are fully exploited to 
+		construct a statistical error model, thus speeding up the evaluation 
+		process. Instead of analyzing the error distribution of adders directly, 
+		which may be hard to describe, statistical carry based errors are 
+		analyzed to replace the input-dependent error for a fast searching. It 
+		is realized by transferring the voltage scaling problem into the 
+		frequency increasing issue.</span><font face="Times New Roman"> </font>		
+		</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		　</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="ChangLiu/1.jpg" width="806" height="276"></font></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="ChangLiu/2.jpg" width="397" height="215"><img border="0" src="ChangLiu/arrow.jpg" width="93" height="216"><img border="0" src="ChangLiu/3.jpg" width="365" height="216"></font></td>
+	</tr>	
+	<tr>
+		<td width="99%">
+		　</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<b><font face="Times New Roman">Key Point II: </font>
+		<span style="font-family: Times New Roman; color: black">
+		Design methodology for approximate circuits and systems</span><font face="Times New Roman">
+		</font></b>		
+		</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">
+		By utilizing both the statistical error models and the input-dependent 
+		functional models, a design approach is proposed for approximate systems 
+		that consist of multistage-latency adders. The approach is efficient by 
+		speeding up the evaluation process.</span><font face="Times New Roman">
+		</font></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		　</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="ChangLiu/4.jpg" width="600" height="906"></font></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		　</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<b><font face="Times New Roman">Key Point III: </font>
+		<span style="font-family: Times New Roman; color: black">
+		Approximate circuit and system design of support vector machine classifier</span><font face="Times New Roman">
+		</font></b>		
+		</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">
+		To validate the methodology, support vector machine (SVM) classification algorithm is mapped to a hardware system composed of approximate computing circuits. Compared with the implantation using RCA, improved performance is achieved by relaxing the “always correct” constraint. The simulations and synthesis results show that the approximate system design achieves 1.57X speedups with 8.56% accuracy degradation. 18.85% area overhead at computing parts can be negligible by amortizing over the entire SVM design. Meanwhile, the proposed method is evaluated from the accuracy and the simulation time as shown below.</span><font face="Times New Roman">
+		</font></td>
+	</tr>
+	<tr>
+		<td width="99%">　</td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="20061003_Webtemplate.files/5.jpg" width="437" height="345"></font></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		　</td>
+	</tr>	
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="20061003_Webtemplate.files/6.bmp" width="336" height="252"><img border="0" src="20061003_Webtemplate.files/7a.bmp" width="336" height="252"><img border="0" src="20061003_Webtemplate.files/7b.bmp" width="336" height="252"></font></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		　</td>
+	</tr>	
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="20061003_Webtemplate.files/8.jpg" width="362" height="114"></font></td>
+	</tr>	
+	<tr>
+		<td width="99%">
+		<font face="Times New Roman">
+		<img border="0" src="20061003_Webtemplate.files/9.bmp" width="336" height="252"></font></td>
+	</tr>	
+	<tr>
+		<td width="99%" height="51">　</td>
+		</tr>
+	<tr>
+		<td width="99%" height="28">
+		<hr width="100%" SIZE="4">
+		</td>
+		</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; font-size: 10.5pt; font-weight: 700">
+		Publications:</span></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">[1]	Liu C, Qiao F, Yang X, et al. Hardware acceleration with pipelined adder for Support Vector Machine classifier[C]//Digital Information and Communication Technology and it's Applications (DICTAP), 2014 Fourth International Conference on. IEEE, 2014: 13-16.</span></td>
+	</tr>
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">[2]	Xinghua Yang, Qiao Fei, Chang Liu, and Huazhong Yang. Design of variable latency adder based on present and transitional states prediction[C]. Power and Timing Modeling, Optimization and Simulation (PATMOS), 2013 23rd International Workshop on. IEEE, 2013: 120-125.</span></td>
+	</tr>	
+	<tr>
+		<td width="99%">
+		<span style="font-family: Times New Roman; color: black">[3]	</span><font face="Times New Roman">Xinghua Yang, Fei Qiao, 
+				Chang Liu, Qi Wei and Huazhong Yang, &quot;Design of multi-stage 
+				latency adders using detection and sequence-dependence between 
+				successive calculations,&quot; Circuits and Systems (ISCAS), 2014 
+				IEEE International Symposium on, Melbourne VIC, 2014:998-1001.</font></td>
+	</tr>
+	<tr>
+		<td width="99%"><font face="Times New Roman">[4] Chang Liu, Xinghua Yang, Fei 
+				Qiao, Qi Wei, Huazhong Yang, &quot;Design Methodology for 
+				Approximate Accumulator Based on Statistical Error Model,&quot; 
+				Accepted by ASP-DAC 2014.</font></td>
+	</tr>
+	<tr>
+		<td width="99%">　</td>
+	</tr>
+	<tr>
+		<td width="99%"><hr SIZE="3" color="#000000" noshade></td>
+	</tr>
+	<tr>
+		<td>
+		<p align="center"><b><font size="4" face="Times New Roman">
+		<span lang="en-us">Copyright </span>&copy;<span lang="en-us"> 2006 - 2014&nbsp;&nbsp;
+		</span>Fei Qiao,<span lang="en-us"> </span>Tsinghua University, Beijing, P<span lang="en-us">.</span>R<span lang="en-us">.</span>C<span lang="en-us">.</span> All rights reserved</font></b></p>
+		<p align="center"><b><font face="Times New Roman" size="4">Last Update :
+		<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%Y-%m-%d" startspan -->2014-09-09<!--webbot bot="Timestamp" endspan i-checksum="12584" --></font></b></td>
+	</tr>
+	<tr>
+		<td bgcolor="#3872AB" background="banner_bg.gif">　</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,1388 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Dissertations - Fei Qiao</title>
+<meta name="description" content="Created by Fei Qiao, 2012.04.23, iVip, NICS, CAS, EE, Tsinghua Univ.">
+<base target="_blank">
+<link rel="shortcut icon" href="favicon.ico" >
+</head>
+
+<body>
+
+<table border="0" width="100%" id="table1" cellspacing="0">
+	<tr>
+		<td width="98%" bgcolor="#3872AB" background="../banner_bg.gif" colspan="3">　</td>
+	</tr>
+	<tr>
+		<td width="100%" colspan="3"><b><font face="Times New Roman" size="6">
+		Publications - </font><span lang="en-us">
+		<font face="Times New Roman" size="6">Dissertations</font></span></b><font face="Times New Roman" size="4"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="../index.html">&lt;&lt;HOME</a></b></font></td>
+	</tr>
+	<tr>
+		<td width="99%" colspan="3"><hr SIZE="3" color="#000000" noshade></td>
+	</tr>
+	<tr>
+		<td width="99%" colspan="3"><b><font face="Times New Roman">DB - 
+				Bachelor Degree; DM - Master Degree; DP - Ph.D. Degree</font></b></td>
+	</tr>
+	<tr>
+		<td width="99%" colspan="3">　</td>
+	</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		
+            
+            
+            
+            
+            <hr size="4" width="100%">
+				</td>
+	</tr>
+	<tr>
+		<td width="98%" height="26" colspan="3">　</td>
+	</tr>
+	<tr>
+		<td width="98%" height="26" colspan="3"><font face="Times New Roman">
+		<a name="DP_2010_HLGao"></a></font></td>
+	</tr>
+	<tr>
+		<td width="5%" height="22" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">[DP] 2010</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Hongli Gao, 
+					Prof. Huazhong Yang, &quot;<b>Research on the Memory Management of 
+					Digital Video Decoders,</b>&quot; Ph. D. thesis, Tsinghua University, 2010.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					高红莉，导师：杨华中教授，“面向数字视频解码器的存储管理方法研究，” 博士学位论文，清华大学，2010. </font>
+					</li>
+				</ul>
+				</td>
+
+
+
+
+
+	</tr>
+	<tr>
+		<td width="98%" height="26" colspan="3">
+		<font face="Times New Roman" color="#C0C0C0"><b>Abstract:</b> Bandwidth 
+		requirement and energy consumption of memory accesses are always the 
+		bottlenecks of the system performance in high-speed mass data processing 
+		systems. Cost-constrained high definition video decoding system is a 
+		typical one that is bothered by the frequent and random memory accesses. 
+		Efficient schemes of embedded compression (EC) and memory access 
+		management are proposed and implemented to resolve the problem of memory 
+		bottleneck for video decoding systems. Embedded compression is an 
+		attractive strategy to reduce the amount of memory accesses between the 
+		processing core and external memory in video decoder. A lossless and 
+		low-cost dictionary-based EC algorithm is proposed for high definition 
+		MPEG-2 video decoder. About 50% of data storage can be reduced with the 
+		EC schemes, which is approximate to the previous lossy schemes. 
+		Synthesized with HJTC 0.18&micro;m CMOS technology, the number of occupied 
+		logic gates for EC encoder and EC decoder are 13K and 4K respectively, 
+		less than 5% of that of the video decoder. Moreover, an efficient 
+		5/3-DWT based EC algorithm is proposed for H.264 decoder, and 70% of 
+		memory accesses can be reduced. This EC algorithm is more efficient than 
+		the existing schemes while maintaining comparable video quality. In this 
+		algorithm, each 4×4 pixel array is compressed into 64-bit or 32-bit 
+		segments to heighten the data bus utilization. Reference pixel fetching 
+		mechanism in motion compensation is the key point for the integration of 
+		EC schemes in video decoder. Boundary judgment and dual-mode boundary 
+		joint schemes are proposed for MPEG-2 and H.264 decoder respectively to 
+		provide seamless integration for the block-based EC approaches. And the 
+		new concept of EC and motion compensation combination design is 
+		proposed. In addition, the dual-mode boundary joint scheme can reduce 
+		the rate of fetched redundancy pixels involved in EC schemes to only 
+		about 10%. In the aspect of memory access management, an efficient 
+		window-based frame storage architecture is proposed, and about 90% of 
+		the latency of page breaks (row activation and precharge) can be reduced 
+		compared to the traditional linear storage architecture. Moreover, 
+		multi-port SDRAM controller is used in the VLSI video decoder to perform 
+		the frequent memory accesses. Group-access-based response and no 
+		redundancy accessing schemes are adopted in the dedicated memory 
+		controller to reduce the number of row-activation operations, and 75% of 
+		buffer size is also saved compared to the previous works. Finally, the 
+		proposed lossless EC algorithm and boundary judgment reference pixel 
+		fetching scheme are integrated into an MB-level three-stage-pipelined 
+		MPEG-2 video decoder. The whole video decoder with EC engine is verified 
+		and tested based on Xilinx Spartan-3 FPGA platform, and can reduce 25% 
+		of power dissipation when decoding the bit streams of CIF format. It is 
+		confirmed that the proposed schemes are efficient for resolving the high 
+		memory bandwidth and high power consumption problems in the 
+		cost-constrained high-speed data transfer systems. </font>
+		<p><font face="Times New Roman" color="#C0C0C0"><b>Key words:</b> Video 
+		decoder; Embedded compression; Memory optimization; Motion compensation; 
+		Reference pixel fetching </font></td>
+	</tr>
+	<tr>
+		<td width="98%" height="26" colspan="3"><font face="Times New Roman"><a name="DP1_2006_FQiao"></a>
+		</font></td>
+	</tr>
+	<tr>
+		<td width="5%" height="22" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0"><font face="Times New Roman">[DP1] 2006</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman">Fei Qiao, Prof. Huazhong 
+					Yang, &quot;<b><font color="#0000FF">Circuit-level 
+					Low Power Techniques for System-on-chip Design,</font></b>&quot; Ph. D. thesis, Tsinghua University, 2006.</font></li>
+					<li><font face="Times New Roman">乔飞，导师：杨华中教授，“微系统芯片设计的低功耗电路技术，” 博士学位论文，清华大学，2006.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+	</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		<p class="Title" style="margin-top:24.0pt;text-indent:0cm;line-height:normal">
+		<font face="Times New Roman"><b>
+		<span lang="EN-US" style="color: windowtext">Abstract: </span></b>
+		<span lang="EN-US" style="color:windowtext">With the development of IC 
+		technology and the increment of the chip scale, how to reduce the power 
+		consumption of SOC chip becomes a stringent problem in design field. 
+		Based on the low power design techniques in circuit level, this work 
+		covers low power interconnect interface technique, high-speed and 
+		low-power flip-flop technique and design of low-power switched capacitor 
+		circuits. Contributions of this paper include,</span></font></p>
+		<p class="PhD"><font face="Times New Roman">
+		<span lang="EN-US" style="color:windowtext">A new receiver, differential 
+		level-triggered latch (DLTL), is presented to reduce the power 
+		consumption of the interconnect network. Simulation results show that 
+		the new receiver, designed by 0.18μm CMOS process, can restore signals 
+		of no less than 50mV voltage swing at 500MHz, with the best performance 
+		of power and power delay product. The effectiveness of the new receiver 
+		has been proved by fabricated chips.</span></font></p>
+		<p class="PhD"><font face="Times New Roman">
+		<span lang="EN-US" style="color:windowtext">Two new conditional 
+		pre-charge DFFs, imCP-SAFF and mCP-SAFF, are presented. The new DFFs 
+		keep the low power characteristic of their counterparts and improve 
+		timing performance as well. Especially, the imCP-SAFF can restrain the 
+		leakage power effectively with modified conditional pre-charge control 
+		modules.</span></font></p>
+		<p class="PhD"><font face="Times New Roman">
+		<span lang="EN-US" style="color:windowtext">To reduce the power 
+		consumption of interconnect drivers with high-speed signal and heavier 
+		work load, a new low power optimizing algorithm with driver-array 
+		architecture is presented. The new power optimizing method significantly 
+		reduces the dynamic power and chip layout area of interconnect driver of 
+		inverter chain without deteriorating the delay of the driver.</span></font></p>
+		<p class="PhD"><font face="Times New Roman">
+		<span lang="EN-US" style="color:windowtext">Switched-capacitor circuits 
+		operated by AC power supply (ACP) are also probed. The ACP is designed 
+		to shut off the operational transconductance amplifier during sampling 
+		phase, which saves about 40% power consumption. The presented low power 
+		technique can implement the same functionality as that of the 
+		traditional switched-capacitor circuits powered by DC power supply, 
+		which is proved by fabricated chips.</span></font></p>
+		<p class="PhD"><font face="Times New Roman">
+		<span lang="EN-US" style="color:windowtext">&nbsp;</span></font></p>
+		<b>
+		<span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman; letter-spacing: .5pt">
+		Key words:</span></b><span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman; letter-spacing: .5pt"> 
+		low power; low-swing voltage; interconnect interface; flip-flop; 
+		switched-capacitor circuits</span><font face="Times New Roman">　</font></td>
+	</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		　</td>
+	</tr>
+	<tr>
+		<td width="99%" height="23" colspan="3">
+		
+            
+            
+            
+            
+            <hr size="4" width="100%">
+				</td>
+		</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3">　</td>
+				</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3"><font face="Times New Roman">
+		<a name="DM5_2012_WQi"></a></font></td>
+				</tr>
+	<tr>
+		<td width="5%" height="24" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0"><font face="Times New Roman">[DM5] 2012</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman">Wei Qi, Prof. Huazhong 
+					Yang, &quot;<font color="#0000FF"><b>A Study on Smart Camera 
+					Platform Based on Multi-Port Memory Controller,</b></font>&quot; 
+					Master thesis, Tsinghua University, 2012.</font></li>
+					<li><font face="Times New Roman">漆维，导师：杨华中教授，“基于多端口存储控制器的嵌入式智能相机平台，”硕士学位论文，清华大学，2012.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3">
+		<p align="justify"><font face="Times New Roman"><b>Abstract:</b> With 
+		the technological advancements in embedded system design, chip 
+		manufacturing, the coming-of-age of CMOS image sensors and computer 
+		vision analysis algorithms, a new vision sensor — Smart Camera has 
+		attracted significant interest from international industrial 
+		organizations and academic research institutions. Smart cameras (also 
+		known as smart vision sensor), which integrate image acquisition, image 
+		processing and communications capabilities in a single sensor, can 
+		complete the pre-set image processing and analysis tasks, extract a 
+		higher level of interest data and transfer them to a data center. 
+		Therefore, smart cameras can not only have the awareness of the 
+		monitoring scene, but also effectively reduce the demand bandwidth for 
+		transmission. Compared to the traditional computer vision systems (such 
+		as “PC plus camera”), smart cameras as a standalone embedded vision 
+		system, have the advantage of smaller size, lower power and lower cost. 
+		This paper carried out work on the topic of designing an embedded smart 
+		camera platform. The work is as follows: First, analyzed the challenges 
+		of smart camera in power, processing capability and resource and 
+		proposed a smart camera platform based on multi-port memory controller. 
+		This platform adapts hardware structure of FPGA plus CPU, the FPGA can 
+		accelerate image processing algorithms and video compression, and CPU 
+		mainly to do the system communication and control work. Second, a 
+		functional configuration and power management module is added into this 
+		smart camera platform. This module can communicate both with the CPU and 
+		other hardware modules, and receive control commands from CPU and 
+		transfer to image acquisition, processing and communication modules 
+		after decoded. The system can be configured to work in different modes 
+		(such as sleep, idle, work, etc.) and each module can be open or closed 
+		in different modes to effectively save power. Third, according to the 
+		characteristics of the SDRAM memory access together with the 
+		characteristics of image processing and analysis algorithms, an 
+		efficient frame buffer mapping method is designed which can effectively 
+		reduce row switch delay of memory access; a read prefetching mechanism 
+		based on windows is designed and can effectively improve memory 
+		bandwidth utilization with hardly any increase in costs. Finally, the 
+		logic simulation and performance analysis result is performed and the 
+		system is verified on the XILINX Virtex-6 ML605 FPGA development board.
+		</font></p>
+		<p align="justify"><font face="Times New Roman"><b>Key words: </b>smart 
+		cameras; video surveillance; machine vision; multi-port memory 
+		controller; power management </font></td>
+				</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3"><font face="Times New Roman">
+		<a name="DM4_2012_JJMa"></a></font></td>
+				</tr>
+	<tr>
+		<td width="5%" height="24" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0"><font face="Times New Roman">[DM4] 2012</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman">Junjun Ma, &quot;<font color="#0000FF"><b>Design 
+					of High-Speed Low-Power Flip-Flops with Soft-Edge Property,</b></font>&quot;
+					<b>Best Master thesis Award</b>, Tsinghua University, 2012.</font></li>
+					<li><font face="Times New Roman">马骏骏，“具有软边沿特性的高速低功耗触发器设计，”<b>清华大学优秀硕士论文</b>，清华大学，2012.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3">
+		<p align="justify"><font face="Times New Roman"><b>Abstract: </b>With 
+		the increasing of the clock frequency of digital system, the timing 
+		overhead of &#64258;ip-&#64258;ops is taking a larger and larger part of clock period. 
+		This leads the application of pipeline technique can only get less clock 
+		frequency further improvement but need to pay big price of power 
+		consumption. Therefore, this paper is on basis of the design method of 
+		low-power and high-speed soft-edge &#64258;ip-&#64258;ops, intimately connecting with 
+		the low power techniques and soft-edge techniques in &#64258;ip-&#64258;op design, 
+		carried out four parts of work: &#8226; In this work, a low power delay 
+		element is proposed. The simulation results with the technology of smic 
+		90nm shows that compared to the conventional inverter chain, this 
+		element can obtain 60ps delay with 37% less power consumption. Based on 
+		it, a low power NOR gate and NAND gate is also proposed. Compared to the 
+		corresponding complementary CMOS gate, their power reduction is 33% and 
+		28% respectively, the application of the NOR gate in the Flip-Flop 
+		design results in an obvious of power reduction of the &#64258;ip-&#64258;op. &#8226; On the 
+		basis of Conditional Capture Flip-Flop, two improved structures of 
+		circuit are proposed. They are improved Conditional Capture Flip-Flop (imCCFF) 
+		and conditional keeper CCFF(ck-CCFF). The imCCFF Flip-Flop can fully 
+		eliminate the redundant power of pulsed triggered &#64258;ip-&#64258;op so as to get 
+		more power reduction While ck-CCFF avoids the problem of signal 
+		contention in the output port through the utilization of conditional 
+		keeper techniques, so it can decrease the power and latency of the &#64258;ip-&#64258;op. 
+		&#8226; Proposed a new structure of pulse-triggered Flip-Flop (PAPTFF) which 
+		utilizes the low power NOR gate, improved conditional capture technique 
+		and conditional keeper technique. Therefor it not only features low 
+		power and high speedbut also has the property of soft edge. The 
+		simulation with the technology of smic 90nm illustrates that it’s power 
+		consumption is 5.7 W when the input activity is 0.2. It’s delay is 55ps, 
+		Compared to the other &#64258;ip-&#64258;ops, it has very low power consumption and 
+		short delay. &#8226; Layout implementation of PAPTFF is completed and also a 
+		standard cell library is created on it. The post-simulated result shows 
+		that compared to the corresponding cell in the ordinary library, its 
+		power reduction is 37% and delay reduction is 47%. And also based on the 
+		library, the adder with di&#64256;erent pipeline depth is designed. Compared to 
+		the standard cell library of smic 90nm technology its max frequency 
+		increase is 25% and power reduction is 24%, which fully illustrated the 
+		validation of PAPTFF in the system design. </font></p>
+		<p><font face="Times New Roman"><b>Key words:</b> &#64258;ip-&#64258;op; low power; 
+		clock tree; PVT-aware; pipeline; Latch </font></td>
+				</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3"><font face="Times New Roman"><a name="DM3_2011_SSTan"></a>
+		</font></td>
+				</tr>
+	<tr>
+		<td width="5%" height="24" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0"><font face="Times New Roman">[DM3] 
+				2011</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman">Sisi Tan, Prof. Hui Wang, &quot;<b><font color="#0000FF"><a href="Dissertations.html#DM3_2011_SSTan" style="color: #0000FF; text-decoration: none">Design 
+					Methodology of Reconfigurable Architecture for MPEG-2/H.264 
+					Dual-standard Video Decoder,</a></font></b>&quot; Master thesis, 
+					Tsinghua University, 2011.</font></li>
+					<li><font face="Times New Roman">
+					谭斯斯，导师：汪蕙教授，“MPEG-2和H.264双标准解码器的可重构架构设计方法，&quot; 
+					硕士学位论文，清华大学，2011.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		<p class="Title1" style="margin-top:24.0pt;line-height:normal">
+		<font face="Times New Roman"><b>
+		<span lang="EN-US" style="font-size: 16.0pt; color: black; letter-spacing: .5pt">
+		Abstract</span></b></font></p>
+		<p class="MsoNormal" style="text-align: justify; line-height: 20.0pt; margin-left: .05pt">
+		<font face="Times New Roman">
+		<span lang="EN-US" style="color: black; letter-spacing: .4pt">Standard 
+		diversification for video codecs is prevailing in video signal 
+		processing area. Data-intensive and real-time video processing makes 
+		even single standard video decoder large-scale and complicated digital 
+		integrated circuits. Requirements of multi-standard video decoders 
+		enhance the design difficulties. Accordingly, design methodologies of 
+		reconfigurable architectuers for multi-standard integrated video 
+		decoders are studied in this work to improve the resource usage 
+		efficiency of the hardware.</span></font></p>
+		<p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph; line-height: 20.0pt; margin-left: .05pt">
+		<font face="Times New Roman">
+		<span lang="EN-US" style="color: black; letter-spacing: .5pt">Two kinds 
+		of design methodologies of reconfigurable architecture for 
+		multi-standard video decoders are presented in this paper, respectively. 
+		The first one is for established independent decoders with different 
+		standards. A design example of </span><span lang="EN-US">MPEG-2/H.264 
+		dual-standard video decoder is presented, and 25% hardware is saved; the 
+		PSNR of the reconfigurable decoder is 30dB, which could meet the primary 
+		requirements of applications.</span></font></p>
+		<p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph; line-height: 20.0pt; margin-left: .05pt">
+		<font face="Times New Roman">
+		<span lang="EN-US" style="color: black; letter-spacing: .5pt">The second 
+		flow is to design the brand-new multi-standard video decoder in system 
+		level. Also with a design example of </span><span lang="EN-US">
+		MPEG-2/H.264 dual-standard video decoder, a dual-standard video decoder 
+		architecture and system-level model are builded with SystemC.
+		<span style="color:black;letter-spacing:.5pt">System analysis data, such 
+		as on-chip communication balance and algorithm complexity, can be 
+		derived from the system model. More, the architecture of the 
+		system-level model could be used as a reference for RTL-level 
+		implementation of the reconfigurable video decoder.</span></span></font></p>
+		<p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph; line-height: 20.0pt; margin-left: .05pt">
+		<font face="Times New Roman">
+		<span lang="EN-US" style="color: black; letter-spacing: .4pt">Compared 
+		with the current design methodologies of reconfigurable architecture,&nbsp; 
+		the first proposed flow considers reconfiguration for established 
+		systems with defferent architecture, which is not mentioned before, and 
+		the seconded one gets faster development with efficient system 
+		analysis.&nbsp;</span></font></p>
+		<b>
+		<span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman; color: black; letter-spacing: .4pt">
+		Key words: &nbsp;</span></b><span lang="EN-US" style="font-size: 12.0pt; font-family: Times New Roman; color: black; letter-spacing: .4pt">Reconfiguration&nbsp; 
+		&nbsp;&nbsp;Multi-standard&nbsp; &nbsp;&nbsp;Video Decoder&nbsp; &nbsp;&nbsp;MPEG-2&nbsp; &nbsp;&nbsp;H.264</span></td>
+		</tr>
+	<tr>
+		<td width="98%" height="24" colspan="3"><font face="Times New Roman">
+		<a name="DM2_2010_FCLiao"></a></font></td>
+				</tr>
+	<tr>
+		<td width="5%" height="24" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0"><font face="Times New Roman">[DM2] 
+				2010</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman">Fucheng Liao, Prof. 
+					Huazhong Yang, &quot;<b><font color="#0000FF"><a href="Dissertations.html#DM2_2010_FCLiao" style="color: #0000FF; text-decoration: none">Design 
+					for Test of MPEG-2 Decoder Chip,</a></font></b>&quot; Master 
+					thesis, Tsinghua University, 2010.</font></li>
+					<li><font face="Times New Roman">
+					廖富成，导师：杨华中教授，“MPEG-2解码芯片可测性设计,&quot; 硕士学位论文，清华大学，2010.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		<p class="Title" style="margin-top:24.0pt;text-indent:0cm;line-height:normal">
+		<b>
+		<font face="Times New Roman"><a name="_Toc198039664"><span lang="EN-US">
+		Abstract</span></a></font></b></p>
+		<p class="a" style="text-indent:24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US">Digital TV is the trend for the future, and will take 
+		the place the position of the analog TV. And the proposal has been given 
+		by the country for the banning on the traditional analog TVs by the year 
+		2015. In the future, the HDTV based on the MPEG-2 standard will be the 
+		new tread for the everyday life and entertainment. However, with the 
+		approach of the deep sub-micrometer technology and the increase of the 
+		density of the transistors on the chip, the verification cost will take 
+		a larger and larger part in the total design, which accounts for more 
+		than 70%, and the test for chip become a bottleneck of the total chip 
+		design flow. Therefore, the introduction of DFT becomes an effective 
+		method for the reduction of the chip cost for test. </span></font></p>
+		<p class="a" style="text-indent:24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US">MPEG-2 video decoder chip is taken as a case study in 
+		this paper, and DFT based on optimized module-partitioning is taken to 
+		accomplish the chip-test, which is the combination of the JTAG and BIST.</span></font></p>
+		<p class="a" style="text-indent:24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US">&nbsp;Firstly, according to the characteristics of the 
+		MPEG-2 system architecture, all the modules are divided into 3 types: 
+		Memory modules, signal-related modules and signal-unrelated modules. For 
+		the first type, March C+ algorithm is taken to build the test pattern 
+		generation circuit, for the signal-unrelated modules, LFSR method is 
+		used for such circuit, and for the signal-related modules, the 
+		relativity of the signals are exploited and the test pattern space is 
+		minimized to design the test pattern generation circuit for particular 
+		test patterns. What’s more, these three kinds of modules are running in 
+		parallel to save the time cost. </span></font></p>
+		<p class="a" style="text-indent:24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US">Secondly, bourdary-scan technology is applied for the 
+		pins of the chip, which means that the input and the output can 
+		serialized to improve the watchability and controllability of the total 
+		chip.</span></font></p>
+		<p class="a" style="text-indent:24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US">Thirdly, through the survey on the system 
+		architecture, the 28 different pins in the VGA module can be reused 
+		which can be used to act as output of the test signals for the 4 groups 
+		for the decoding control under all the three levels (Sequence level</span></font><span style="font-family: Times New Roman">，</span><font face="Times New Roman"><span lang="EN-US">Picture 
+		level and Macroblock level) , which effectively improves the 
+		controllability and the watchability of the total system. </span></font>
+		</p>
+		<p class="a" style="text-indent:24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US">Experiment results show that the time for test is 
+		reduced to less than 0.625% of the original one, while the 
+		fault-coverage is improved from 81% to 95.1%, and the hardware cost is 
+		only 3% of the whole chip, and the FPGA implementation of such system on 
+		the platform of Xilinx Spartan-3 is proved to be effective (the clock 
+		frequency for the core is 40MHz, while the clock frequency for the VGA 
+		module is 25MHz). The DFT method proposed in this paper which is named 
+		as optimized module-partitioning based parallel test technology has the 
+		following advantages: high fault-coverage</span></font><span style="font-family: Times New Roman">、</span><font face="Times New Roman"><span lang="EN-US">low 
+		hardware design complexity</span></font><span style="font-family: Times New Roman">、</span><font face="Times New Roman"><span lang="EN-US">short 
+		test time and low cost implementation, which can be also applied to 
+		other similar video processing applications.</span></font></p>
+		<p class="a0" style="text-indent: -19.2pt; margin-left: 19.2pt">
+		<font face="Times New Roman"><b><span lang="EN-US">Keywords:</span></b><span lang="EN-US"> 
+		&nbsp;</span></font><span lang="EN-US" style="font-family: Times New Roman">MPEG-2, 
+		design for test, JTAG, BIST, fault coverage rate</span></td>
+		</tr>
+	<tr>
+		<td width="99%" height="23" colspan="3"><font face="Times New Roman">
+		<a name="DM1_2010_CLi"></a></font></td>
+		</tr>
+	<tr>
+		<td width="5%" height="24" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" height="61" bgcolor="#C0C0C0"><font face="Times New Roman">[DM1] 
+				2010</font></td>
+
+
+
+
+
+				<td width="80%" height="61" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman">Chang Li, Prof. Huazhong 
+					Yang, &quot;<b><font color="#0000FF"><a href="Dissertations.html#DM1_2010_CLi" style="color: #0000FF; text-decoration: none">Design 
+					of MIPS Embedded Microprocessor,</a></font></b>&quot; Master 
+					thesis, Tsinghua University, 2010.</font></li>
+					<li><font face="Times New Roman">
+					李常，导师：杨华中教授，“嵌入式MIPS微处理器设计,&quot; 硕士学位论文，清华大学，2010.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+	</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		<p class="Title" style="margin-top:24.0pt;text-indent:0cm;line-height:normal">
+		<b>
+		<font face="Times New Roman"><a name="_Toc198039663"><span lang="EN-US">
+		Abstract</span></a></font></b></p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">Embedded microprocessors 
+		are widely used in industrial control, communications, consumer and 
+		military fields. In this paper, one 32-bit MIPS microprocessor 
+		architecture is studied, then an embedded RISC microprocessor with low 
+		power consumption and security features, which is fully compatible with 
+		32-bit MIPS instruction set</span></font><span style="font-family: Times New Roman; letter-spacing: 0pt">，</span><font face="Times New Roman"><span lang="EN-US" style="letter-spacing:0pt">is 
+		designed. The major work in this paper is as follows.</span></font></p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">This paper firstly 
+		introduces some key technologies of the microprocessor's architecture, 
+		such as parallel technologies, cache technologies and low-power 
+		optimization technologies. Then it introduces MIPS32<sup>TM</sup> 
+		architecture, including register organization, instruction set and the 
+		compiling process. </span></font></p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">Then, the overall 
+		structure of the design of microprocessor in this paper is presented, 
+		followed by the introduction of two parts: the design of 
+		microprocessor's core and Cache. </span></font></p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">Microprocessor's core 
+		adopts the technology of six stages pipeline, resolving the timing 
+		sequential bottleneck of the traditional five stages pipeline, 
+		increasing the processor's frequency dramatically by adding RF level. 
+		The resource conflict, data conflict and control conflict, which are 
+		offen encountered in pipeline design, get the corresponding solutions.
+		</span></font></p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">Then, the current security 
+		problems, which microprocessors facing now, are analyzed. We modify the 
+		Cache structure so that it can effectively resist the side channel 
+		attacks with lower power consumption. The main improvement on the cache 
+		is that we add Small Cache between the level one cache and the main 
+		memory, so the attacker can't obtain the mapping relationship between 
+		the cache and main memory, and data security is improved. </span></font>
+		</p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">Finally, the tactics and 
+		scheme of the microprocessor verification is proposed. Then, we verify 
+		the microprocessor from software simulation to hardware verification to 
+		guarantee the correctness of the functionality.</span></font></p>
+		<p class="a" style="text-indent: 24.0pt" align="justify"><font face="Times New Roman">
+		<span lang="EN-US" style="letter-spacing:0pt">To direct at the embedded 
+		microprocessors' requirements of high-performance, low power consumption 
+		and security, this paper has made useful exploration of the pipeline and 
+		cache technology, and has proposed some improvements. The design reaches 
+		the desired purpose basically. Synthesized by Synplify Pro 7.7, on 
+		Xilinx Spartan-3 XC3S2000 FPGA platform, microprocessor core is able to 
+		run at up to 111MHz, the whole system is able to run at up to 53.6 MHz.</span></font></p>
+		<p class="a" style="text-indent: -19.2pt; margin-left: 19.2pt"><b>
+		<span lang="EN-US" style="font-family: Times New Roman">Keywords:</span></b><span lang="EN-US" style="font-family: Times New Roman">&nbsp; 
+		MIPS, CPU, pipeline, cache, low power, security</span></td>
+		</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		<font face="Times New Roman"><a name="DM_2008_DLWei"></a></font></td>
+		</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2008</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Dingli Wei, 
+					Prof. Huazhong Yang, &quot;<b>Key Technologies for H.264 Hardware 
+					Encoder and DSP-based Transcoder,</b>&quot; Master thesis, Tsinghua University, 2008.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					魏鼎力，导师：杨华中教授，“H.264硬件编码器的关键技术和DSP转码器实现，” 硕士学位论文，清华大学，2008.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3">
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Abstract:</b> In order to meet the growing demand for 
+				large-size high-definition video, high-definition digital TV 
+				(HDTV) is coming into prevalence in the near future. Due to its 
+				overwhelming compression performance and high encoding image 
+				quality, the fashionable video coding standard H.264 
+				particularly suits to encoding HDTV. However, H.264 great 
+				encoding complexity brings on huge throughput requirements when 
+				encoding the real-time video. Therefore, the ASIC 
+				implementations of H.264 encoders are the indubitable trends. 
+				After the introduction of the overall H.264 encoder framework, 
+				the thesis focuses research attention on transform coding part 
+				and entropy coding part of the encoder. Firstly, the key of 
+				increasing throughput is analyzed and efficient algorithms are 
+				proposed. Secondly, the corresponding RTL-level architecture is 
+				simulated in which the pipeline and parallel technology is being 
+				widely used. Finally, the Transform-and-Quantization Module, the 
+				Inverse Quantization Inverse Transform Module and the 
+				Context-based Adaptive Variable Length Coding Module (CAVLC) are 
+				synthesized with SMIC 0.18μm CMOS technology, and then verified 
+				by VCS. The three modules work correctly and the data throughput 
+				is in full compliance with HD1080 video format (1920 × 1088 
+				@30fp) requirements. Taking advantage of the characteristics of 
+				the block coefficients, a novel inverse quantization and inverse 
+				transform architecture for H.264 encoder is proposed. With a 
+				view to module-reuse and complexity-reduction, the procedure of 
+				inverse quantization is merged into the step of inverse 
+				transform where the 2×2 chroma DC inverse Hadamard transform, 
+				the 4×4 luma DC inverse Hadamard transform and the IDCT process 
+				are mapped into one single pipeline architecture. Compared with 
+				previous structures, the performance of the proposed module was 
+				improved by 35.9%. In order to overcome the throughput 
+				bottleneck, a highly parallel and double-level pipeline CAVLC 
+				encoder is proposed in the thesis. The module adopts 
+				four-channel parallel scan instead of serial process. In 
+				addition, by using FIFO, the processing delay of each stage is 
+				averaged to insure higher efficiency of block-level pipeline. 
+				The data throughput of the proposed design increases to 3.46 
+				times as much as that of previous structures, which can even 
+				meet the requirements of real-time processing of digital cinema 
+				video (4096 × 2048 @30fp). Moreover, a DSP-based real-time 
+				transcoder is implemented in the thesis, which makes it possible 
+				when playing H.264-based television program on H.263-based 
+				multimedia terminals. Focusing on the reduction of computation 
+				complexity, the proposed transcoder makes the most of the side 
+				information such as motion vectors or reference frames and 
+				adopts a novel architecture which spends less computing and 
+				storage resources. By taking advantage of the characteristics of 
+				TMS320DM642, the improved transcoder is optimized and realized 
+				on DSP. The proposed one could process 25 CIF frames per second 
+				with negligible degradation of the subjective and objective 
+				reconstruction video quality，which can be obviously practical in 
+				real world applications. </font></p>
+				<p><font face="Times New Roman" color="#C0C0C0"><b>Keywords:</b> 
+				H.264 encoder Transform Quantization CAVLC Realtime Transcoder
+				</font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3"><font face="Times New Roman">
+				<a name="DM_2007_BChen"></a></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2007</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Bin Chen, 
+					Associate Prof. Rong Luo, &quot;<b>Study on H.264 Video Coding 
+					Optimization and Error Control Technology,</b>&quot; Master thesis, Tsinghua University, 2007.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					陈彬，导师：罗嵘副教授，“H.264 编码优化及差错控制技术研究，” 硕士学位论文，清华大学，2007.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3">
+				<p class="MsoNormal" align="justify">
+				<font face="Times New Roman" color="#C0C0C0"><span lang="EN-US">
+				<b>Abstract:</b> Recently, video coding techniques have been 
+				widely used due to the fast development of video communication, 
+				such&nbsp; as mobile video and IPTV. Nowadays, many international 
+				standards have contributed to the great success of video coding 
+				applications. With the features of high coding efficiency and 
+				strong support of network adaptation, H.264 video encoding 
+				standard has attracted more and more attentions of researchers 
+				and designers. </span></font></p>
+				<p class="MsoNormal" align="justify">
+				<font face="Times New Roman" color="#C0C0C0"><span lang="EN-US">
+				Though a great many advanced tools enhance the coding efficiency 
+				of H.264 significantly, these tools dramatically increase the 
+				computational complexity than previous standards. Inter 
+				prediction, which takes about 50% complexity in H.264 encoder, 
+				is a bottleneck in realization of a real-time H.264 encoder. 
+				This thesis firstly addresses the software&nbsp; optimization problem 
+				of H.264 encoder on the DM64 platform and especially focus on 
+				the inter prediction optimization. After optimization, the 
+				encoding speed reaches more than 10 times faster than before. At 
+				last, with our group’s efforts, a real-time CIF format H.264 
+				encoder is implemented. </span></font></p>
+				<p class="MsoNormal" align="justify">
+				<font face="Times New Roman" color="#C0C0C0"><span lang="EN-US">
+				Besides, error control techniques are studied systematically in 
+				this thesis. An adative error concealment algorithm for H.264 
+				transmission over packet-loss networks is proposed in this 
+				paper. This algorithm firstly analyzes the motion property 
+				around the lost macroblock and then ultilizes both spatial 
+				domain and time domain smoothness property to finish the error 
+				concealment process. Extensive experiments and detailed analysis 
+				demonstrate that our proposal provides not only better 
+				subjective and objective reconstruction than the other 
+				well-known methods, but also maintains robustness to different&nbsp; 
+				sequences and different loss rates. A hierarchical Flexible 
+				Macroblock Ordering (FMO) method is also proposed in this 
+				thesis, which can be combined well with Region Of Interest (ROI) 
+				based error resilient coding schemes with much fewer header bits 
+				than the existing FMO schemes in H.264 standard. It achieves a 
+				better tradeoff between video compression efficiency and error 
+				resilient performance by the hierarchical FMO scheme when the 
+				video data are transmitted over error-prone networks based on 
+				our experiments. </span></font></p>
+				<p class="MsoNormal">
+				<font face="Times New Roman" color="#C0C0C0"><span lang="EN-US">
+				<b>Keywords:</b> H.264, Video coding, Flexible Macroblock 
+				Ordering, Error Control, Errol Concealment, Region Of Interest</span></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3"><font face="Times New Roman">
+				<a name="DM_2007_JLi"></a></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2007</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Jian Li, 
+					Prof. Huazhong Yang, &quot;<b>Bit Stream Parser, Intra Compensation, 
+					and Deblocking Filter of H.264 Decoder,</b>&quot; Master thesis, Tsinghua University, 2007.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					李健，导师：杨华中教授，“H.264解码器的码流解析、帧内补偿及去块效应滤波，” 硕士学位论文，清华大学，2007.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3">
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Abstract:</b> As the latest video coding standard, H.264 
+				outperforms the other existing standards. With the development 
+				of multimedia technology, the video services based on portable 
+				devices are getting popular. It is meaningful to develop IP 
+				cores of H.264 decoder with low price and low power for portable 
+				device. Based on the analysis of the flow and the principle of 
+				the H.264 decoder, this paper completes the design of the Bit 
+				Stream Parser, Intra Compensation and Deblocking Filter modules 
+				for the H.264 decoder of Baseline@Level 2.0. Verilog HDL is used 
+				to complete the RTL model and Modelsim is used to do the 
+				simulation and verification. Bit Stream Parser module includes 
+				entropy decoder and parameter parser, which is responsible for 
+				supplying paramters and residual data for other parts of the 
+				decoder. In this module, several units work sequentially. So 
+				with enable signals, idle units can be shut down to reduce the 
+				power consumption. In the Intra Compensation module, 17 kinds of 
+				predictive modes are merged to 8 kinds of calculate modes based 
+				on the analysis of the formulas of the predictive modes to 
+				achieve optimization. In order to utilize the low price low 
+				power of DDR SDRAM, a new filter scheduling is proposed, and a 
+				new architecture of Deblocking Filter with no on-chip SRAM is 
+				proposed based on the new filter scheduling. This architecture 
+				can achieve data reuse and reduce the number of memory access. 
+				Filter speed is increased by 47% and the logic gate count is 
+				reduced by 20% compared with the classical deblocking filter 
+				design. Besides, the whole decoder is verified using Modelsim 
+				and with SMIC 0.18μm CMOS technology, the synthesized logic gate 
+				count is about 213k while the highest clock frequency is 
+				83.3MHz. </font></p>
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Keywords:</b> H.264 Decoder Deblocking Filter Filter 
+				Scheduling SRAM Predictive Mode </font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3"><font face="Times New Roman">
+				<a name="DM_2007_YYu"></a></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2007</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Yao Yu, 
+					Prof. Huazhong Yang, &quot;<b>Key Technologies of VLSI Design for 
+					H.264 Decoder,</b>&quot; Master thesis, Tsinghua University, 2007.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					俞尧，导师：杨华中教授，“H.264解码器VLSI实现的关键技术，” 硕士学位论文，清华大学，2007.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3">
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Abstract:</b> As the latest video coding standard, H.264 
+				obviously outperforms the other existing standards. And it 
+				enables to achieve high video quality under low bit rate. With 
+				the development of 3G technique, wire-less stream media is 
+				becoming more and more prevalent. Thereby, it is meaningful to 
+				develop low-power IP cores of H.264 decoder with low price for 
+				portable devices. For the purpose of designing a H.264 Baseline 
+				Level 2.0 decoder in VLSI, this paper focuses on following 
+				aspects: 1) The system scheme of the H.264 Baseline Level 2.0 
+				decoder has been worked out and the top level architecture has 
+				been designed. In this architecture, A 32M Byte DDR is used as 
+				the off-chip memory to store the reference frames. There is no 
+				pipelined structure involved in the architecture. And the 
+				decoder process the data macro-block by macro-block while the 
+				sub-modules process the data 4x4 block by 4x4 block inside the 
+				decoder. The decoder can process one point every 8 clock cycles. 
+				Thus it is able to support CIF@30FPS with a clock frequency of 
+				40MHz. 2) A Motion Compensation (MC) Module has been developed 
+				which has passed the function verification. When synthesized 
+				under SMIC 0.18 &#61549;m technics, it counts about 80000 gates. And 
+				the highest process frequency is 83.3MHz. Furthermore, this 
+				paper invented a new architecture for the sub-pixel 
+				interpolation block which is a sub-module of MC. In this 
+				architecture, hardware resources are fully reused to process 
+				luminance and chroma points in the same unit. Compared with the 
+				traditional way, the proposed architecture can save 11.3% of the 
+				area. 3) Other significant modules have been designed for the 
+				decoder, such as Re-Ordering &amp; Inverse Quantization &amp; Inverse 
+				Transform (RO&amp;IQ&amp;IT) Module, Picture Rebuilding (PR) Module and 
+				Address Converting (AC) Module. All these modules can work at a 
+				frequency of higher than 83.3MHz and the total gates count is 
+				over 40000. </font></p>
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Key words:</b> H.264 Decoder Motion Compensation Significant 
+				Module New Architecture </font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3"><font face="Times New Roman">
+				<a name="DM_2006_ZHWu"></a></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2006</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Zhihua Wu, Prof. 
+					Huazhong Yang, &quot;<b>Motion Compensation and Data Storage 
+					Architecture of HDTV Video Decoder Chip,</b>&quot; Master thesis, Tsinghua University, 2006.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					吴智华，导师：杨华中教授，“HDTV视频解码芯片的运动补偿和数据存储结构，” 硕士学位论文，清华大学，2006.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3">
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Abstract:</b> The high-definition digital television (HDTV) 
+				replaces the traditional analogue television is an inevitable 
+				trend. With the popularity of HDTV, because of its high 
+				flexibility and high maturity, MPEG-2 has gained sustaining high 
+				attention. Specially, the demand of MPEG-2 MP@HL decoders will 
+				definitely grow. This paper presents the design of the motion 
+				compensation module, a key part of the MPEG-2 MP@HL decoding 
+				application specific integrated circuits (ASIC). The concept of 
+				video compression, the theory of MPEG-2 decoders, the design 
+				methods of the motion compensation module and an improved method 
+				of image stored in the memory is addressed. Motion compensation 
+				module is divided into three sub-modules according with their 
+				functionality: reading data of prediction, half pixels 
+				interpolation, image reconstruction and writing back to the 
+				memory. Reading data module includes motion vectors decryption, 
+				dual prime prediction, memory address conversion, and reading 
+				control; the function of half pixels interpolation is doing 
+				horizontal and vertical half-pixel interpolation according to 
+				the half pixels index; image reconstruction and writing back to 
+				the memory module include reading inverse discrete cosine 
+				transform (IDCT) and interpolation data, image reconstruction, 
+				memory address conversion, and writing memory. The details of 
+				the functions and the realizations of these modules are 
+				described in this article. To improve the memory bandwidth in 
+				MPEG2 decoder, a new memory storing architecture is proposed. 
+				The architecture is based on the character of synchronous 
+				dynamic random access memory (SDRAM) and the MPEG2 decoder. 
+				Since it can minimize the number of overhead cycles needed for 
+				row-activations in SDRAM, we can improve the memory bandwidth 
+				significantly. Compared to the linear translation, the results 
+				show that it reduces about 90% of row activations and 60% of the 
+				cycles needed in decoder. The decoder had been verified by 
+				Xilinx Spartan-3 development board. The frequency of decoder is 
+				40MHz, and 25MHz in VGA display. In ASIC design, using SMIC 
+				0.18μm process, with the highest frequency of 150MHz, which can 
+				achieve 1920 x 1080 @30f/s decoding. The size of the chip, 
+				including all PADs, is 4.2mm x 4.2mm. </font></p>
+				<p><font face="Times New Roman" color="#C0C0C0"><b>Key word:</b> 
+				MPEG-2 SDRAM Motion compensation Macroblock Integrated circuits 
+				design </font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3"><font face="Times New Roman">
+				<a name="DM_2006_XJWang"></a></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2006</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Xiaojun 
+					Wang, Prof. Huazhong Yang, &quot;<b>Macroblock Decoder and VGA 
+					Interface of the HDTV Video-decoding Chip,</b>&quot; Master thesis, Tsinghua University, 2006.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					王晓军，导师：杨华中教授，“HDTV视频解码芯片宏块解码和VGA接口，” 硕士学位论文，清华大学，2006.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3">
+				<p align="justify"><font face="Times New Roman" color="#C0C0C0">
+				<b>Abstract:</b> MPEG-2 video coding standard was approved in 
+				1994 and now it is widely accepted. MPEG-2 video coding standard 
+				is mainly used in the field of the digital storage, TV 
+				broadcasting, and communications. In this dissertation, the ASIC 
+				design of Macroblock decoder and VGA interface of the MPEG-2 
+				decoder based on MP@HL is presented. First, we deeply analyze 
+				the MPEG-2 standard, its syntax structure and the principle of 
+				the decoder as a whole. Two kinds of MPEG-2 decoder architecture 
+				including block level pipeline architecture and Macroblock level 
+				pipeline architecture is introduced and the analysis of the two 
+				architectures is also presented. The ASIC design of Macroblock 
+				decoder and VGA is described in detail in this paper. Macroblock 
+				decoder includes the variable length decoder (VLD) and state 
+				machines used to decode the parameter of the encoded stream. The 
+				performance of VLD greatly affects the efficiency of the whole 
+				MPEG-2 decoder. In this dissertation, several VLD architecture 
+				are analyzed and a new high speed parallel VLD is presented 
+				which can decode multiple symbols in one clock cycle and reduce 
+				the critical path greatly. The function of VGA includes 
+				producing the pixel address of SDRAM, up sampling and the color 
+				space transform. The format of the MPEG-2 video decoded stream 
+				is transformed from the 4:2:0 in YUV to 4:4:4 in RGB. The 
+				algorithm of average interpolation is adopted in the ASIC design 
+				of the up sampling. At Last, in this dissertation, synthesis, 
+				post simulation and static timing analysis for the MPEG-2 
+				decoder is introduced. SMIC 0.18 CMOS technology is used in the 
+				synthesis using Synopsis DC tool. The result shows that the 
+				whole MPEG-2 decoder based on MP@HL has 0.7 M gates and an area 
+				of 8.3 mm2 and the fastest system clock frequency can be 150MHz.
+				</font></p>
+				<p><font face="Times New Roman" color="#C0C0C0"><b>Keywords:</b> 
+				MPEG-2 VLD VGA HDTV </font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="99%" colspan="3"><font face="Times New Roman">
+				<a name="DM_2006_QZhao"></a></font></td>
+
+
+
+
+
+				</tr>
+	<tr>
+
+
+
+
+
+				<td width="6%" bgcolor="#C0C0C0">　</td>
+
+
+
+
+
+				<td width="13%" bgcolor="#C0C0C0">
+				<font face="Times New Roman" color="#808080">
+				[DM] 2006</font></td>
+
+
+
+
+
+				<td width="80%" bgcolor="#C0C0C0">
+				<ul>
+					<li><font face="Times New Roman" color="#808080">Qiang Zhao, 
+					Prof. Huazhong Yang, &quot;<b>The System Design and Key Technologies 
+					in HDTV Video Decoder ASIC,</b>&quot; Master thesis, Tsinghua 
+					University, 2006.</font></li>
+					<li><font face="Times New Roman" color="#808080">
+					赵强，导师：杨华中教授，“HDTV视频解码芯片的系统设计与关键技术，” 硕士学位论文，清华大学，2006.</font></li>
+				</ul>
+				</td>
+
+
+
+
+
+			</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		<p align="justify"><font face="Times New Roman" color="#C0C0C0"><b>
+		Abstract:</b> Due to the overwhelming technology advantage over analog 
+		TV broadcasting, digital TV broadcasting is coming into dominating 
+		position in the near future. Digital high-definition TV (HDTV) is then 
+		the main developing trend all over the world. Because of its high 
+		flexibility of application and maturity of technology, MPEG-2 has been 
+		widely adopted as the source coding standard for digital HDTV by many 
+		countries, which makes MPEG-2 video decoding one of the key technologies 
+		in digital HDTV. The huge volume of digital signal processing required 
+		in HDTV video decoding makes it a must to develop a high performance 
+		application specific integrated circuits (ASIC) for such application. In 
+		this paper, we designed the system structure of an MPEG-2 HDTV video 
+		decoder based on the quantitative analysis of the work load of the 
+		decoder, in which a 3-stage MB-level decoding pipeline was implemented. 
+		We also structured the circuit of some key functional blocks in the 
+		decoder, such as the inverse scan module, inverse quantizer, inverse 
+		discret cosine transform (IDCT), etc. We designed their 
+		register-transfer-level (RTL) models with Verilog HDL, and finished the 
+		simulation with ModelSim. In the design of IDCT, we used the distributed 
+		arithmetic (DA) + cyclic convolution structure to replace all the 
+		multiplications in IDCT with look-up-tables (LUT), in which the cyclic 
+		convolution algorithm helped to reduce the scale of the LUTs from to , 
+		wherein N is the number of input data to IDCT. Besides，we also proposed 
+		a multi-port synchronous dynamic random-access memory (SDRAM) controller 
+		in this paper. The multi-port SDRAM controller provided separate read 
+		and write datapath for functional blocks in the decoder, which shared 
+		the memory bandwidth, respectively, and had an arbiter module 
+		incorporated to arbitrate the competition for memory access. The control 
+		logic in the controller was optimized to increase the efficiency of the 
+		memory bandwidth, which lead to the reduction of hardware resources. 
+		Compared to the traditional bus + direct memry access (DMA) structure, 
+		the on-chip buffer was reduced by up to 70% by the scheme proposed in 
+		this paper. As for system verification, we designed a field programmable 
+		gate array (FPGA) verification system on the platform of Xilinx 
+		Spartan-3 FPGA. In particular, we developed and optimized a DDR SDRAM 
+		controller specially for FPGA platform. The video decoder runs on the 
+		FPGA successfully with a system clock frequency of 50 MHz and a memory 
+		clock frequency of 100 MHz. In the last part of this paper, Synopsys 
+		Astro was emplyed to do floorplan, placement, and routing for the 
+		backend design of the video decoder ASIC. The final physical layout 
+		features an area of 4.2×4.2 mm2 (PADs included) and a working clock 
+		frequency of 108 MHz. </font></p>
+		<p align="justify"><font face="Times New Roman" color="#C0C0C0"><b>
+		Keywords:</b> HDTV MPEG-2 Compressed Video Decoder Design ASIC Design
+		</font></td>
+		</tr>
+	<tr>
+		<td width="99%" colspan="3">
+		　</td>
+		</tr>
+	<tr>
+		<td width="99%" colspan="3"><hr SIZE="3" color="#000000" noshade></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+		<p align="center"><b><font size="4" face="Times New Roman">
+		<span lang="en-us">Copyright </span>&copy;<span lang="en-us"> 2006 - 2012&nbsp;&nbsp;
+		</span>Fei Qiao,<span lang="en-us"> </span>Tsinghua University, Beijing, P<span lang="en-us">.</span>R<span lang="en-us">.</span>C<span lang="en-us">.</span> All rights reserved</font></b></p>
+		<p align="center"><b><font face="Times New Roman" size="4">Last Update :
+		<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%Y-%m-%d" startspan -->2012-06-06<!--webbot bot="Timestamp" endspan i-checksum="12370" --></font></b></td>
+	</tr>
+	<tr>
+		<td bgcolor="#3872AB" background="../banner_bg.gif" colspan="3">　</td>
+	</tr>
+</table>
+
+</body>
+
+</html>
